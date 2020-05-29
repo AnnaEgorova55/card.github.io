@@ -1,7 +1,7 @@
 {
   "name": "card.github.io",
   "version": "1.0.0",
-  "description": "",
+  "description": "pictures",
   "main": "src/index.js",
   "scripts": {
     "build": "cross-env NODE_ENV=production rimraf dist && webpack --mode production",
@@ -12,7 +12,7 @@
     "type": "git",
     "url": "git+https://github.com/AnnaEgorova55/card.github.io.git"
   },
-  "author": "",
+  "author": "AnnaEgorova",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/AnnaEgorova55/card.github.io/issues"

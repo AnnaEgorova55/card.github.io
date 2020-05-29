@@ -31,6 +31,10 @@ export default class Popup {
     this.popup.classList.add('popup_is-opened');
   }
 
+  openPopupZoom() {
+    this.popup.classList.add('popup_is-opened');
+  }
+
   close() {
     this.popup.classList.remove('popup_is-opened');
   }

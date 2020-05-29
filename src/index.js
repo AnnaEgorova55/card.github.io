@@ -48,7 +48,7 @@ const popupZoom = new Popup(zoomImage, closeZoom);
 
 const openZoom = (event) => {
   bigImage.style.backgroundImage = event.target.style.backgroundImage;
-  return popupZoom.open();
+  return popupZoom.openPopupZoom();
 };
 
 const oneCard = (name, link, openZoom) => {
